@@ -13,6 +13,9 @@
             list-style-type: none;
         }
     }
+    .well {
+        margin-right: 1em;
+    }
 }
 #benyoy {
     @include border-radius(1em);
