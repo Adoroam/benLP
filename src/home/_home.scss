@@ -1,0 +1,10 @@
+[role="home"] {
+    margin-top: 5.5rem !important;
+    padding: 0;
+    .row>div {
+        box-sizing: border-box;
+    }
+}
+#benyoy {
+    @include border-radius(1em);
+}

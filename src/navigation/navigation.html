@@ -1,0 +1,15 @@
+<nav role="navigation" ng-controller="navCtrl as nav">
+    <p>
+        <span class="brfront">{ </span>ben eaton <em class="white">learning portfolio</em> <span class="brback"> }</span>
+    </p>
+    <ul class="nav">
+        <li ng-repeat="item in nav.list">
+            <a href="{{item.path}}"
+                ng-click="nav.pathUpdate($index)"
+                ng-class="{active: item.active}">{{item.name}}</a>
+        </li>
+        <li>
+            <a href="url here">assignment portfolio</a>
+        </li>
+    </ul>
+</nav>

@@ -1,0 +1,29 @@
+<section role="about">
+
+  <article class="info">
+    <img src="/img/anthony_circle_720.png" alt="me" class="profile" />
+    <div>
+      <h2>Hello. My name is <span class="dot">Anthony Stabile.</span></h2>
+      <p>I'm a self-taught, full-stack web developer from Houston, Texas.</p>
+    </div>
+  </article>
+
+  <article class="workflow">
+    <h3>I like to work with:</h3>
+    <dl>
+      <dd ng-repeat="icon in abt.icons"
+        ng-mouseover="abt.selectIcon($index)">
+        <a href="{{icon.url}}" target="_blank">
+          <figure>
+            <img src="{{icon.src}}" alt="{{icon.alt}}" />
+            <figcaption>
+              {{icon.alt}}
+            </figcaption>
+          </figure></a>
+      </dd>
+    </dl>
+  </article>
+
+
+</section>
+
