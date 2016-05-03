@@ -1,3 +1,10 @@
 [role="modules"] {
-
+    margin-top: 7rem !important;
+    .panel-heading {
+        background: $accent !important;
+        color: $white !important;
+    }
+    .panel {
+        border-color: $accent !important;
+    }
 }
