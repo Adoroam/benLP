@@ -1,8 +1,17 @@
 [role="home"] {
-    margin-top: 5.5rem !important;
+    margin-top: 7rem !important;
     padding: 0;
-    .row>div {
-        box-sizing: border-box;
+    .benfacts {
+        p {
+            @extend .center;
+        }
+        ul {
+            padding: 0 !important;
+        }
+        ul li {
+            margin: auto 0;
+            list-style-type: none;
+        }
     }
 }
 #benyoy {
