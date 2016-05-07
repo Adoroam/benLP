@@ -1,6 +1,7 @@
 [role="home"] {
     margin-top: 7rem !important;
     padding: 0;
+	font-family: $font-stack;
     .benfacts {
         p {
             @extend .center;
@@ -11,13 +12,14 @@
         ul li {
             margin: auto 0;
 			list-style-type: none;
+			font-family: $font-stack;
         }
     }
     .well {
         margin-right: 1em;
     }
+	
 }
 #benyoy {
     @include border-radius(1em);
 }
-
