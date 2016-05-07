@@ -1,6 +1,6 @@
 /* CONTROLLER FOR POSTS */
-app.controller('postsCtrl', ['$scope' , function($scope) {
-    posts = this;
+app.controller('reflCtrl', ['$scope' , function($scope) {
+    refl = this;
 
 
 }]);

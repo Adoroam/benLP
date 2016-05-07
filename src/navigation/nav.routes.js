@@ -15,7 +15,7 @@ app.config(['$routeProvider', '$locationProvider',
      })
      .when('/reflection', {
         templateUrl: 'templates/reflection.html',
-        controller: 'reflectionCtrl as ref'
+        controller: 'reflCtrl as refl'
      })
       .otherwise({
         redirectTo: "/home"
