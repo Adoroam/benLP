@@ -8,8 +8,8 @@ var bodyParser = require('body-parser');//get body-parser module (create json)
 var cookieParser = require('cookie-parser');//get cookie-parser module (create, edit, delete cookies)
 var fs = require('fs');//get fs module (read/write to filesystem)
 
-/* SET PORT (default for browsers is 80) */
-var port = 80;
+/* SET PORT (default for browsers is 8003) */
+var port = 8003;
 
 /* USE MODULES */
 app.use(cookieParser());// use module for finding cookies
